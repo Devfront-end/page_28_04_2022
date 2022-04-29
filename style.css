@@ -1,0 +1,139 @@
+body {
+    background-color: #0E0D0E;
+}
+
+.header {
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.header_image img {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.text {
+    align-items: flex-start;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    margin-top: 6rem;
+    padding-left: 5rem;
+
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: roboto, arial;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: roboto, arial;
+}
+
+.bouton {
+    background-color: #FC766D;
+    padding: 18px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 65px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFD;
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+
+}
+
+.carte-1 {
+    background-image: url('https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+}
+
+.carte-2 {
+    background-image: url('https://images.unsplash.com/photo-1495954222046-2c427ecb546d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+}
+
+.carte-3 {
+    background-image: url('https://images.unsplash.com/photo-1629148769165-069e8a9e8a30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1154&q=80');
+
+}
+
+.card p {
+    padding: 10px;
+}
+
+h3 {
+    color: #5497FF;
+    text-align: center;
+}
+
+p {
+    color: #5497FF;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #5397FF;
+    font-size: 20px;
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 15rem;
+    margin-right: 15rem;
+
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: roboto, arial;
+}
+
+.titre p {
+    display: flex;
+    color: white;
+    line-height: 4px;
+    
+}
