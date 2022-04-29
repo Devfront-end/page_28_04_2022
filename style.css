@@ -1,7 +1,7 @@
 body {
     background-color: #0E0D0E;
-   overflow-x: none;
-   
+    width: 100%;
+
 }
 
 .header {
@@ -16,12 +16,12 @@ body {
     width: 80%;
     height: 500px;
     object-fit: cover;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .text {
-    align-items: flex-start;
+
     position: absolute;
     top: 50%;
     left: 40%;
@@ -66,13 +66,13 @@ h2 {
     width: 80%;
     height: 500px;
     object-fit: cover;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding-top: 1rem;
 }
 
 .card {
-    background-color:#EFF6FF;
+    background-color: #EFF6FF;
     width: 300px;
     margin: 10px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
@@ -84,7 +84,7 @@ h2 {
     height: 200px;
     margin-bottom: 15px;
     background-size: cover;
-   
+
 
 }
 
@@ -124,8 +124,8 @@ p {
     width: 80%;
     height: 300px;
     object-fit: cover;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
 }
 
@@ -140,5 +140,5 @@ h4 {
     display: flex;
     color: white;
     line-height: 4px;
-    
+
 }
