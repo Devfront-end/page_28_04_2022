@@ -1,5 +1,7 @@
 body {
     background-color: #0E0D0E;
+   overflow-x: none;
+   
 }
 
 .header {
@@ -22,7 +24,7 @@ body {
     align-items: flex-start;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 40%;
     transform: translate(-50%, -50%);
     margin-top: 6rem;
     padding-left: 5rem;
@@ -54,6 +56,7 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     height: 65px;
+    cursor: pointer;
 }
 
 .container {
@@ -65,10 +68,11 @@ h2 {
     object-fit: cover;
     margin-left: 15rem;
     margin-right: 15rem;
+    padding-top: 1rem;
 }
 
 .card {
-    background-color: white;
+    background-color:#EFF6FF;
     width: 300px;
     margin: 10px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
@@ -80,6 +84,7 @@ h2 {
     height: 200px;
     margin-bottom: 15px;
     background-size: cover;
+   
 
 }
 
