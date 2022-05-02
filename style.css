@@ -23,7 +23,7 @@ body {
 }
 
 .header_image img {
- width:1010px;
+ width:1139px;
     height: 500px;
     object-fit: cover;
     margin-left: 2rem;
@@ -152,3 +152,30 @@ h4 {
     line-height: 4px;
 
 }
+
+h2 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+
+  
